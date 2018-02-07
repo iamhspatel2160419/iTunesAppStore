@@ -12,6 +12,12 @@
 		E0EC8F97202AAC630089F0C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0EC8F95202AAC630089F0C6 /* Main.storyboard */; };
 		E0EC8F99202AAC630089F0C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0EC8F98202AAC630089F0C6 /* Assets.xcassets */; };
 		E0EC8F9C202AAC630089F0C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0EC8F9A202AAC630089F0C6 /* LaunchScreen.storyboard */; };
+		E0EC8FA4202AADA30089F0C6 /* NetworkProcessor.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC8FA3202AADA30089F0C6 /* NetworkProcessor.swift */; };
+		E0EC8FA6202AB2200089F0C6 /* AppStoreEndPoint.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC8FA5202AB21F0089F0C6 /* AppStoreEndPoint.swift */; };
+		E0EC8FA8202AB9080089F0C6 /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC8FA7202AB9080089F0C6 /* App.swift */; };
+		E0EC8FAA202ABBFE0089F0C6 /* AppStoreClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC8FA9202ABBFE0089F0C6 /* AppStoreClient.swift */; };
+		E0EC8FAC202AC54C0089F0C6 /* AppleTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC8FAB202AC54C0089F0C6 /* AppleTableViewCell.swift */; };
+		E0EC8FAE202AC7950089F0C6 /* AppStoreTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC8FAD202AC7950089F0C6 /* AppStoreTableViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,12 @@
 		E0EC8F98202AAC630089F0C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0EC8F9B202AAC630089F0C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		E0EC8F9D202AAC630089F0C6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0EC8FA3202AADA30089F0C6 /* NetworkProcessor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkProcessor.swift; sourceTree = "<group>"; };
+		E0EC8FA5202AB21F0089F0C6 /* AppStoreEndPoint.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreEndPoint.swift; sourceTree = "<group>"; };
+		E0EC8FA7202AB9080089F0C6 /* App.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
+		E0EC8FA9202ABBFE0089F0C6 /* AppStoreClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreClient.swift; sourceTree = "<group>"; };
+		E0EC8FAB202AC54C0089F0C6 /* AppleTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppleTableViewCell.swift; sourceTree = "<group>"; };
+		E0EC8FAD202AC7950089F0C6 /* AppStoreTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppStoreTableViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +72,12 @@
 				E0EC8F98202AAC630089F0C6 /* Assets.xcassets */,
 				E0EC8F9A202AAC630089F0C6 /* LaunchScreen.storyboard */,
 				E0EC8F9D202AAC630089F0C6 /* Info.plist */,
+				E0EC8FA3202AADA30089F0C6 /* NetworkProcessor.swift */,
+				E0EC8FA5202AB21F0089F0C6 /* AppStoreEndPoint.swift */,
+				E0EC8FA7202AB9080089F0C6 /* App.swift */,
+				E0EC8FA9202ABBFE0089F0C6 /* AppStoreClient.swift */,
+				E0EC8FAB202AC54C0089F0C6 /* AppleTableViewCell.swift */,
+				E0EC8FAD202AC7950089F0C6 /* AppStoreTableViewController.swift */,
 			);
 			path = iTunesAppStore;
 			sourceTree = "<group>";
@@ -136,7 +154,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0EC8FAA202ABBFE0089F0C6 /* AppStoreClient.swift in Sources */,
+				E0EC8FA6202AB2200089F0C6 /* AppStoreEndPoint.swift in Sources */,
+				E0EC8FAC202AC54C0089F0C6 /* AppleTableViewCell.swift in Sources */,
+				E0EC8FAE202AC7950089F0C6 /* AppStoreTableViewController.swift in Sources */,
+				E0EC8FA4202AADA30089F0C6 /* NetworkProcessor.swift in Sources */,
 				E0EC8F94202AAC630089F0C6 /* ViewController.swift in Sources */,
+				E0EC8FA8202AB9080089F0C6 /* App.swift in Sources */,
 				E0EC8F92202AAC630089F0C6 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
