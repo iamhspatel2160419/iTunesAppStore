@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0892FA0202ADF6100D57C63 /* Simulator Screen Shot - iPhone 8 - 2018-02-06 at 23.12.44.png in Resources */ = {isa = PBXBuildFile; fileRef = E0892F9F202ADF6000D57C63 /* Simulator Screen Shot - iPhone 8 - 2018-02-06 at 23.12.44.png */; };
+		E0892FA2202ADF6600D57C63 /* Simulator Screen Shot - iPhone 8 - 2018-02-06 at 23.12.55.png in Resources */ = {isa = PBXBuildFile; fileRef = E0892FA1202ADF6600D57C63 /* Simulator Screen Shot - iPhone 8 - 2018-02-06 at 23.12.55.png */; };
+		E0892FA4202ADF6D00D57C63 /* Simulator Screen Shot - iPhone 8 - 2018-02-06 at 23.12.06.png in Resources */ = {isa = PBXBuildFile; fileRef = E0892FA3202ADF6C00D57C63 /* Simulator Screen Shot - iPhone 8 - 2018-02-06 at 23.12.06.png */; };
 		E0EC8F92202AAC630089F0C6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC8F91202AAC630089F0C6 /* AppDelegate.swift */; };
-		E0EC8F94202AAC630089F0C6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0EC8F93202AAC630089F0C6 /* ViewController.swift */; };
 		E0EC8F97202AAC630089F0C6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0EC8F95202AAC630089F0C6 /* Main.storyboard */; };
 		E0EC8F99202AAC630089F0C6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0EC8F98202AAC630089F0C6 /* Assets.xcassets */; };
 		E0EC8F9C202AAC630089F0C6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0EC8F9A202AAC630089F0C6 /* LaunchScreen.storyboard */; };
@@ -21,9 +23,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		E0892F9F202ADF6000D57C63 /* Simulator Screen Shot - iPhone 8 - 2018-02-06 at 23.12.44.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 - 2018-02-06 at 23.12.44.png"; sourceTree = "<group>"; };
+		E0892FA1202ADF6600D57C63 /* Simulator Screen Shot - iPhone 8 - 2018-02-06 at 23.12.55.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 - 2018-02-06 at 23.12.55.png"; sourceTree = "<group>"; };
+		E0892FA3202ADF6C00D57C63 /* Simulator Screen Shot - iPhone 8 - 2018-02-06 at 23.12.06.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Simulator Screen Shot - iPhone 8 - 2018-02-06 at 23.12.06.png"; sourceTree = "<group>"; };
 		E0EC8F8E202AAC630089F0C6 /* iTunesAppStore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iTunesAppStore.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0EC8F91202AAC630089F0C6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		E0EC8F93202AAC630089F0C6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		E0EC8F96202AAC630089F0C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		E0EC8F98202AAC630089F0C6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E0EC8F9B202AAC630089F0C6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -47,6 +51,45 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0892FA5202ADFC900D57C63 /* Snapshots */ = {
+			isa = PBXGroup;
+			children = (
+				E0892F9F202ADF6000D57C63 /* Simulator Screen Shot - iPhone 8 - 2018-02-06 at 23.12.44.png */,
+				E0892FA3202ADF6C00D57C63 /* Simulator Screen Shot - iPhone 8 - 2018-02-06 at 23.12.06.png */,
+				E0892FA1202ADF6600D57C63 /* Simulator Screen Shot - iPhone 8 - 2018-02-06 at 23.12.55.png */,
+			);
+			path = Snapshots;
+			sourceTree = "<group>";
+		};
+		E0892FA6202AE01F00D57C63 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0EC8FA3202AADA30089F0C6 /* NetworkProcessor.swift */,
+				E0EC8FA5202AB21F0089F0C6 /* AppStoreEndPoint.swift */,
+				E0EC8FA7202AB9080089F0C6 /* App.swift */,
+				E0EC8FA9202ABBFE0089F0C6 /* AppStoreClient.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		E0892FA7202AE07800D57C63 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0EC8FAD202AC7950089F0C6 /* AppStoreTableViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		E0892FA8202AE08900D57C63 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				E0EC8FAB202AC54C0089F0C6 /* AppleTableViewCell.swift */,
+				E0EC8F9A202AAC630089F0C6 /* LaunchScreen.storyboard */,
+				E0EC8F95202AAC630089F0C6 /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		E0EC8F85202AAC620089F0C6 = {
 			isa = PBXGroup;
 			children = (
@@ -66,18 +109,13 @@
 		E0EC8F90202AAC630089F0C6 /* iTunesAppStore */ = {
 			isa = PBXGroup;
 			children = (
+				E0892FA5202ADFC900D57C63 /* Snapshots */,
 				E0EC8F91202AAC630089F0C6 /* AppDelegate.swift */,
-				E0EC8F93202AAC630089F0C6 /* ViewController.swift */,
-				E0EC8F95202AAC630089F0C6 /* Main.storyboard */,
+				E0892FA8202AE08900D57C63 /* Views */,
 				E0EC8F98202AAC630089F0C6 /* Assets.xcassets */,
-				E0EC8F9A202AAC630089F0C6 /* LaunchScreen.storyboard */,
 				E0EC8F9D202AAC630089F0C6 /* Info.plist */,
-				E0EC8FA3202AADA30089F0C6 /* NetworkProcessor.swift */,
-				E0EC8FA5202AB21F0089F0C6 /* AppStoreEndPoint.swift */,
-				E0EC8FA7202AB9080089F0C6 /* App.swift */,
-				E0EC8FA9202ABBFE0089F0C6 /* AppStoreClient.swift */,
-				E0EC8FAB202AC54C0089F0C6 /* AppleTableViewCell.swift */,
-				E0EC8FAD202AC7950089F0C6 /* AppStoreTableViewController.swift */,
+				E0892FA6202AE01F00D57C63 /* Model */,
+				E0892FA7202AE07800D57C63 /* Controller */,
 			);
 			path = iTunesAppStore;
 			sourceTree = "<group>";
@@ -142,6 +180,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				E0EC8F9C202AAC630089F0C6 /* LaunchScreen.storyboard in Resources */,
+				E0892FA0202ADF6100D57C63 /* Simulator Screen Shot - iPhone 8 - 2018-02-06 at 23.12.44.png in Resources */,
+				E0892FA2202ADF6600D57C63 /* Simulator Screen Shot - iPhone 8 - 2018-02-06 at 23.12.55.png in Resources */,
+				E0892FA4202ADF6D00D57C63 /* Simulator Screen Shot - iPhone 8 - 2018-02-06 at 23.12.06.png in Resources */,
 				E0EC8F99202AAC630089F0C6 /* Assets.xcassets in Resources */,
 				E0EC8F97202AAC630089F0C6 /* Main.storyboard in Resources */,
 			);
@@ -159,7 +200,6 @@
 				E0EC8FAC202AC54C0089F0C6 /* AppleTableViewCell.swift in Sources */,
 				E0EC8FAE202AC7950089F0C6 /* AppStoreTableViewController.swift in Sources */,
 				E0EC8FA4202AADA30089F0C6 /* NetworkProcessor.swift in Sources */,
-				E0EC8F94202AAC630089F0C6 /* ViewController.swift in Sources */,
 				E0EC8FA8202AB9080089F0C6 /* App.swift in Sources */,
 				E0EC8F92202AAC630089F0C6 /* AppDelegate.swift in Sources */,
 			);
